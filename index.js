@@ -11,5 +11,5 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi() {
-  document.querySelector('.employee-list').append(value)
+  document.querySelector('.employee-list').append(retrieveEmployeeInformation())
 }
