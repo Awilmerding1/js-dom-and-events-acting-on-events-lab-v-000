@@ -10,6 +10,6 @@ function retrieveEmployeeInformation() {
   return document.querySelector('input').value
 }
 
-function addNewElementAsLi(value) {
+function addNewElementAsLi() {
   document.querySelector('.employee-list').append(value)
 }
