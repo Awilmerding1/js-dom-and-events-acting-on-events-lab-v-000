@@ -20,3 +20,7 @@ function addNewLiOnClick() {
     resetInput()
   })
 }
+
+function resetInput(){
+   return document.querySelector('input').value = ''
+}
