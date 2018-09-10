@@ -12,8 +12,7 @@ function retrieveEmployeeInformation() {
 
 function addNewElementAsLi() {
   let a = document.querySelector('.employee-list').createElement('li')
-  
-  (retrieveEmployeeInformation())
+  a.innerHTML = retrieveEmployeeInformation()
 }
 
 function addNewLiOnClick() {
